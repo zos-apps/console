@@ -1,3 +1,3 @@
 title: Console
-description: View system logs and diagnostics
-theme: jekyll-theme-minimal
+description: System console for viewing logs and debugging applications.
+theme: jekyll-theme-cayman

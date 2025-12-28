@@ -20,7 +20,21 @@
         "height": 500
       },
       "resizable": true
-    }
+    },
+    "about": "System console for viewing logs and debugging applications.",
+    "help": [
+      "View system messages",
+      "Filter by app or level",
+      "Search for specific entries"
+    ],
+    "docs": "https://zos-apps.github.io/console",
+    "site": "https://github.com/zos-apps/console",
+    "features": [
+      "Real-time logs",
+      "Log filtering",
+      "Search",
+      "Export logs"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "console",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
