@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/console",
+  "name": "@zos-apps/console",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "📋",
     "category": "system",
     "description": "View system logs and diagnostics",
-    "permissions": ["system.logs"],
+    "permissions": [
+      "system.logs"
+    ],
     "window": {
-      "defaultSize": { "width": 800, "height": 500 },
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "View system logs and diagnostics",
+  "homepage": "https://zos-apps.github.io/console",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/console/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "console",
+    "macos",
+    "desktop"
+  ]
 }
