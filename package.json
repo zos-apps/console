@@ -34,7 +34,26 @@
       "Log filtering",
       "Search",
       "Export logs"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/console"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "console"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/console/issues",
+    "changelog": "https://github.com/zos-apps/console/releases"
   },
   "scripts": {
     "build": "tsup",
