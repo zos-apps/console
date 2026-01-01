@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface ConsoleProps {
   onClose: () => void;
@@ -33,7 +33,7 @@ const generateLogs = (): LogEntry[] => {
   }).sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
 };
 
-const Console: React.FC<ConsoleProps> = ({ onClose }) => {
+const Console: React.FC<ConsoleProps> = ({ onClose: _onClose }) => {
   const [logs, setLogs] = useState<LogEntry[]>([]);
   const [filter, setFilter] = useState<'all' | 'info' | 'warning' | 'error' | 'debug'>('all');
   const [searchQuery, setSearchQuery] = useState('');
